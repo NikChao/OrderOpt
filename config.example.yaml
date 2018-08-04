@@ -1,11 +1,11 @@
 database:
     app:
-        name: budgetapp
+        name:
         conn:
-            host: mybudgetapp.cnabm39v53bz.ap-southeast-2.rds.amazonaws.com
-            port: 5432
-            user: budgetapp
-            password: budgetapp
+            host:
+            port:
+            user:
+            password:
             stale_timeout: 300
             max_connections: 100
 
