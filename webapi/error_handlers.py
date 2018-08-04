@@ -1,7 +1,7 @@
 import falcon
 import peewee
 
-from webapi.database import database
+# from webapi.database import database
 
 
 class CatchAllHandler(Exception):
@@ -16,7 +16,7 @@ class CatchAllHandler(Exception):
             # Don't log stack trace for invalid requests
             raise ex
 
-        database.rollback()
+        # database.rollback()
         raise falcon.HTTPInternalServerError(type(ex).__name__, str(ex))
 
 
