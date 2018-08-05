@@ -11,7 +11,7 @@ from webapi.error_handlers import register_error_handlers
 from webapi.media_handlers import register_media_handlers
 from webapi.routes import register_routes
 
-# init_database()
+init_database()
 
 def create_middleware():
     return [
